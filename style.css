@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+::after,*::before{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    outline:none;
+}
+
+html{
+    font-size: 16px;
+}
+body{
+    height: 100vh;
+    width: ;
+    font-family: 'Poppins', sans-serif;
+    background-color:#E1E1E1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heading{
+    margin-top: 3rem;
+    color: rgb(59, 58, 58);
+    display: flex;
+    justify-content: center;
+    font-size: 1.8rem;
+    font: weight 900;
+}
+.calculator-container{
+    width: 25rem;
+    height: 30rem;
+    background-color:#AFAFAF;
+    border-radius: 25px;
+    box-shadow: 6px 8px 9px rgb(0, 0, 0,0.4);
+}
+p{
+    color: rgb(59, 58, 58);
+}
+.container{
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-weight: 900;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input{
+    color: rgb(59, 58, 58);
+    border-radius: 5px;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+button{
+    color: rgb(59, 58, 58);
+    border-radius: .5rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    font-weight: 600;
+}
+button:hover{
+    transform: scale(1.25) translateY(-1PX);
+}
+@media screen and (max-width: 420px){
+    .heading{
+        font-size: 1.3rem;
+        font-weight: 1000;
+    }
+    input{
+        color: rgb(59, 58, 58);
+        border-radius: 5px;
+        padding-top: .3rem;
+        padding-bottom: .3rem;
+        margin-bottom: .5rem;
+        font-weight: 600;
+        width: 12rem;
+    }
+    button{
+        color: rgb(59, 58, 58);
+        margin-top: .5rem;
+        border-radius: .5rem;
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        font-weight: 600;
+        width: 10rem;
+    }
+    button:hover{
+        transform: scale(1.25) translateY(-1PX);
+    }
+    .container{
+        padding: 2rem;
+        font-size: 1.1rem;
+        font-weight: 900;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    p{
+        padding-top: .2rem;
+    }
+}
+@media screen and (max-width: 420px){
+    .calculator-container{
+        width: 75%;
+    }
+}
+
